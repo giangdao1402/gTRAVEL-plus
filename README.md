@@ -9,5 +9,5 @@ propriate region size.
 - **Rejected Ground Node Revert (RNGR)** to recover misclassified ground points. 
 ## 📊 Results  
 This method achieves **state-of-the-art segmentation** performance on urban (SemanticKITTI) and off-road (Rellis-3D) datasets.
-![Results Image](path/to/results.png)  
+![Results Image](assets/results.png)  
 ## 📢 Stay Tuned! Our code will be available upon acceptance.
