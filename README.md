@@ -1,5 +1,5 @@
-# TRAVEL++: Enhancing Ground Segmentation using 3D LiDAR with Temporal Noise Removal and Adaptive Plane Fitting for Urban and Off-Road Environments
-TRAVEL++ is a variant of [**TRAVEL**](https://github.com/url-kaist/TRAVEL) that focuses exclusively on enhancing ground segmentation performance.  
+# gTRAVEL+: Enhancing Ground Segmentation using 3D LiDAR with Temporal Noise Removal and Adaptive Plane Fitting for Urban and Off-Road Environments
+TRAVEL++ is an improvment of [**TRAVEL**](https://github.com/url-kaist/TRAVEL) that focuses exclusively on enhancing ground segmentation performance.  
 ## 🔍 Overview  
 ![TRAVEL++ Overview](assets/overview.png)
 TRAVEL++ introduces:  
