@@ -2,7 +2,7 @@
 TRAVEL++ is an improvment of [**TRAVEL**](https://github.com/url-kaist/TRAVEL) that focuses exclusively on enhancing ground segmentation performance.  
 ## 🔍 Overview  
 ![TRAVEL++ Overview](assets/overview.png)
-TRAVEL++ introduces:  
+gTRAVEL+ introduces:  
 - **Temporal Node-Wise Noise Removal (TNNR)** to eliminate noise.  
 - **Merge Node Plane Fitting (MNPF)** to tackle the under-segmentation issue caused by inappropriate region size.  
 - **Rejected Ground Node Revert (RNGR)** to recover misclassified ground points. 
