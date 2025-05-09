@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam file="$(find gtravelp)/config/rellis_params_tuning.yaml" command="load" />
+
+    <arg name="data_dir" default="" />
+    <arg name="seq" default="" />
+
+    <param name="/data_dir" type="str" value="$(arg data_dir)" />
+    <param name="/seq" type="str" value="$(arg seq)" />
+    <param name="/rellis_hz" type="int" value="10" />
+    <param name="/save_results/save_labels" type="bool" value="false" />
+    <param name="/stop" type="bool" value="true" />
+    <param name="/start_idx" type="int" value="1200" />
+    <param name="/save_results/abs_save_dir" type="str" value="/media/shapelim/Elements/SemanticKITTI/labels" />
+
+    <node name="gtravelp_rellis_publisher" pkg="gtravelp" type="gtravelp_rellis_publisher" output="screen"/>
+    <node name="gtravelp_node" pkg="gtravelp" type="gtravelp_node" output="screen" />
+
+    <!-- Run Rviz -->
+    <arg name="rviz" default = "false" />
+    <node if="$(arg rviz)" name="rviz" pkg="rviz" type="rviz" args="-d $(find gtravelp)/rviz/gtravelp_kitti.rviz"/>
+</launch>
