@@ -8,11 +8,9 @@ gTRAVEL+ introduces:
 - **Rejected Ground Node Revert (RNGR)** to recover misclassified ground points. 
 ## :gear: How to build gTRAVEL+
 1. **Dependencies**  
-   You need to install all the dependencies of the baseline method [**TRAVEL**](https://github.com/url-kaist/TRAVEL).
-
+You need to install all the dependencies of the baseline method [**TRAVEL**](https://github.com/url-kaist/TRAVEL).
 2. **Build**  
-   To successfully build gTRAVEL+, you can follow the commands below:
-
+To successfully build gTRAVEL+, you can follow the commands below:
 ```bash
 $ mkdir -p catkin_ws/src
 $ cd catkin_ws/src
