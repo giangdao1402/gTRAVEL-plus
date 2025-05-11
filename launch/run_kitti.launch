@@ -11,7 +11,6 @@
     <param name="/save_results/save_labels" type="bool" value="false" />
     <param name="/stop" type="bool" value="false" />
     <param name="/start_idx" type="int" value="0" />
-    <param name="/save_results/abs_save_dir" type="str" value="/labels" />
 
     <node name="gtravelp_kitti_publisher" pkg="gtravelp" type="gtravelp_kitti_publisher" output="screen"/>
     <node name="gtravelp_node" pkg="gtravelp" type="gtravelp_node" output="screen" />

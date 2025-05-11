@@ -6,7 +6,28 @@ gTRAVEL+ introduces:
 - **Temporal Node-Wise Noise Removal (TNNR)** to eliminate noise.  
 - **Merge Node Plane Fitting (MNPF)** to tackle the under-segmentation issue caused by inappropriate region size.  
 - **Rejected Ground Node Revert (RNGR)** to recover misclassified ground points. 
+## :gear: How to build gTRAVEL+
+1. Dependencies
+You need to install all the dependencies of the baseline method [**TRAVEL**](https://github.com/url-kaist/TRAVEL) 
+2. Build
+To successfully build gTRAVEL+, you can follow below codes 
+```bash
+$ mkdir -p catkin_ws/src
+$ cd catkin_ws/src
+$ git clone https://github.com/giangdao1402/gTRAVEL-plus
+$ ../
+$ catkin build  # or catkin_make
+```
+## :running: How to run gTRAVEL+
+```bash
+$ cd catkin_ws
+$ source devel/setup.bash
+$ roslaunch gtravelp run_rellis.launch data_dir:=/media/giang/SSD/rosbag/SematicKITTI/Rellis_3D_os1_cloud_node_kitti_bin/Rellis-3D/00000 rviz:=True
+ # or run_kitti.launch with data_dir of kitti bin
+```
+
 ## 📊 Results  
 This method achieves **state-of-the-art segmentation** performance on urban (SemanticKITTI) and off-road (Rellis-3D) datasets.
 ![Results Image](assets/results.png)  
-## 📢 Stay Tuned! Our code will be available upon acceptance.
+## Citation
+If you use our codes, please cite our paper.

@@ -9,9 +9,8 @@
     <param name="/seq" type="str" value="$(arg seq)" />
     <param name="/rellis_hz" type="int" value="10" />
     <param name="/save_results/save_labels" type="bool" value="false" />
-    <param name="/stop" type="bool" value="true" />
-    <param name="/start_idx" type="int" value="1200" />
-    <param name="/save_results/abs_save_dir" type="str" value="/media/shapelim/Elements/SemanticKITTI/labels" />
+    <param name="/stop" type="bool" value="false" />
+    <param name="/start_idx" type="int" value="0" />
 
     <node name="gtravelp_rellis_publisher" pkg="gtravelp" type="gtravelp_rellis_publisher" output="screen"/>
     <node name="gtravelp_node" pkg="gtravelp" type="gtravelp_node" output="screen" />
