@@ -31,6 +31,7 @@ This method achieves **state-of-the-art segmentation** performance on urban (Sem
 ![Results Image](assets/results.png)  
 ## Citation
 If you use our codes, please consider citing our paper.
+```
 	@ARTICLE{10990224,
 	  author={Dao, Truong Giang and Tran, Dinh Tuan and Nguyen, Duc Manh and Lee, Joo-Ho and Nguyen, Anh Quang},
 	  journal={IEEE Access}, 
@@ -40,4 +41,6 @@ If you use our codes, please consider citing our paper.
 	  number={},
 	  pages={82431-82440},
 	  doi={10.1109/ACCESS.2025.3567621}}
-
+```
+## Acknowledgement
+We would like to thank the authors of [**Patchwork**](https://github.com/limHyungTae/patchwork/), [**Patchwork++**](https://github.com/url-kaist/patchwork-plusplus) and [**TRAVEL**][https://github.com/url-kaist/TRAVEL] for their invaluable open-sourced code
