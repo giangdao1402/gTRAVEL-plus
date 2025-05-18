@@ -1,4 +1,3 @@
-# gTRAVEL-plus
 # gTRAVEL+: Enhancing Ground Segmentation using 3D LiDAR with Temporal Noise Removal and Adaptive Plane Fitting for Urban and Off-Road Environments
 gTRAVEL+ is an improvement of [**TRAVEL**](https://github.com/url-kaist/TRAVEL) that focuses exclusively on enhancing ground segmentation performance.  
 ## 🔍 Overview  
