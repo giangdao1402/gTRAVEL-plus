@@ -30,4 +30,14 @@ $ roslaunch gtravelp run_rellis.launch data_dir:=/media/giang/SSD/rosbag/Sematic
 This method achieves **state-of-the-art segmentation** performance on urban (SemanticKITTI) and off-road (Rellis-3D) datasets.
 ![Results Image](assets/results.png)  
 ## Citation
-If you use our codes, please cite our paper.
+If you use our codes, please consider citing our paper.
+	@ARTICLE{10990224,
+	  author={Dao, Truong Giang and Tran, Dinh Tuan and Nguyen, Duc Manh and Lee, Joo-Ho and Nguyen, Anh Quang},
+	  journal={IEEE Access}, 
+	  title={gTRAVEL+: Enhancing Ground Segmentation for 3D Point Cloud With Temporal Noise Removal and Adaptive Plane Fitting for Urban and Off-Road Environments}, 
+	  year={2025},
+	  volume={13},
+	  number={},
+	  pages={82431-82440},
+	  doi={10.1109/ACCESS.2025.3567621}}
+
